@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;	
+}
+body{
+	/*background-color: #04D4F0;*/
+	background-color:#fff;
+}
+.color{
+	background-color: #FBD230;
+	background-position: center;
+	background-size: cover;
+	color: white;
+	border-top-left-radius: 800px;
+	border-top-right-radius: 300px;
+	border-bottom-left-radius: 1000px;
+	border-bottom-right-radius: 4000px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	margin-right: 400px;
+	margin-left: 40px;
+	padding-bottom: 40px;
+}
+.contentbox{
+	padding-top: 20px;
+	padding-right: ;
+	padding-left: 100px;
+	padding-top: 20px;
+}
+.contentbox h1{
+	font-size: 60px;
+	font-weight: 100;
+	margin-bottom: 15px;
+	color: #232d60;
+}
+.contentbox h2{
+	font-size: 30px;
+	margin-top: 24px;
+	margin-bottom: 5px;
+	color: white;
+}
+.contentbox p{
+	font-size: 25px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.position {
+	margin-top: -350px;
+	margin-bottom: -100px;
+	margin-left: 650px ;
+	padding-bottom: 50px;
+}
+.contact
+{
+	font-size:30px;
+    position: relative;
+    min-height:50vh;
+    padding:50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+	margin-bottom:30px;
+}
+.contact .content
+{
+    max-width: 800px;
+    text-align: center;
+}
+.a
+{
+	border-radius:50px;
+    width:70%;
+	margin-top:20px;
+	margin-bottom:10px;
+	padding-top:-50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div1
+{
+	color: white;
+	font-family: unset;
+	font-size: 40px;
+	float: left;
+	margin-left: 20px;
+  margin-right: -50px;
+	padding-left: -20px;
+	padding-right:40px;
+	padding-top: 50px;
+	padding-bottom: 60px;
+	width: 80%;
+	height: 30%;
+	border-style: double;
+	background-color: #FBD230;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+.image {
+	padding: 20px;
+	border-style: double;
+	border-top-left-radius: 150px;
+	border-bottom-left-radius: 150px;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+	background-color: #FBD230;
+	padding-right: 10px;
+}
+.img {
+	border-style: double black;
+	border-radius: 50%;
+}
+.div1 li{
+	text-align: left;
+	align-content: left;
+	align-items: left;
+	font-size: 20px;
+	margin-left: 50px;
+	margin-right: -150px;
+}

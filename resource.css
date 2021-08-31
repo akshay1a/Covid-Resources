@@ -1,0 +1,78 @@
+* {box-sizing: border-box}
+
+.btn-group button {
+  background-color: orangered; /* Green background */
+  position: relative;
+  font-size: 40px;
+  color: white; /* White text */
+  padding:  auto; /* Some padding */
+  margin: 2.5%;
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 28%;
+  border-radius: 30%;
+}
+.btn-group button:hover {
+  background-color: #A1A9FE;
+}
+section{
+  margin-top: -4rem;
+}
+h3{
+  letter-spacing: 1.5px;
+}
+h1
+{
+  text-align: center;
+  color: var(--red);
+  font-size:27px;
+  text-transform:uppercase;
+  letter-spacing:1px;
+  margin-bottom:15px;
+}
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+}
+.btn {
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+#oxygen {
+  background-color: #A1A9FE;
+}
+#remdesivir {
+  background-color: #A1A9FE;
+}
+#plasma {
+  background-color: #A1A9FE;
+}
+#customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid darkviolet;
+  padding: 2%;
+}
+
+
+#customers tr:hover {background-color: #FEDA15; color: black;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #FF2400;
+  color: white;
+}

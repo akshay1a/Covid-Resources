@@ -1,0 +1,250 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #f5f5f5;
+	font-family: Arial , Helvetica, sans-serif;
+}
+h1
+{
+  text-align: center;
+  color: var(--red);
+  font-size:27px;
+  text-transform:uppercase;
+  letter-spacing:1px;
+  margin-bottom:15px;
+}
+
+.wrapper{
+	margin-bottom: -300px;
+	margin-left: 50px;
+	margin-right: 50px;
+	background-color: #fff;
+	width: 650px;
+	padding: 25px;
+	margin: 100px auto 50px;
+	box-shadow: 3px 4px 8px 6px rgba(0, 0, 0, 0.3);
+}
+
+.wrapper h2{
+	background-color: #fcfcfc;
+	color: #BD705A;
+	font-size: 24px;
+	padding: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+	border: 2px solid #fcfcfc;
+}
+
+h4{
+	padding-bottom: 5px;
+	color:#BD705A;
+}
+
+.input-group {
+	margin-bottom: 8px;
+	width: 100%;
+	position:relative;
+	display: flex;
+	flex-direction: row;
+	padding: 8px 0;
+}
+
+.input-box {
+	width:90%;
+	height: 90%;
+	margin-right: 12px;
+	position: relative;
+
+}
+
+.input-box:last-child {
+		margin-right: 0;
+}
+
+.name{
+	padding: 14px 10px 14px 50px;
+	width: 100%;
+	background-color: #fcfcfc;
+	border:2px solid #fcfcfc;
+	outline: none;
+	letter-spacing: 1px;
+    transition:0.3s;
+    border-radius: 3px;
+    color:#333;
+}
+
+.name:focus, .dob:focus
+{
+	box-shadow: 0 0 2px 1px #BD705A;
+	border: 1px solid #BD705A;
+}
+
+.input-box img 
+{
+	width: 47px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	height: 47px;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	color:#333;
+	background-color: white;
+	border-radius: 2px 0 0 2px;
+	transition: 0.3s;
+	font-size: 15px;
+	pointer-events: none;
+	border: 2px solid #fcfcfc;
+	border-right: none; 
+}
+
+.name:focus + img{
+	background-color: #BD705A;
+	color:#fff;
+	border-right: 1px solid #BD705A;
+	border: none;
+	transition: 1s;
+}
+
+.dob{
+	width: 30%;
+	padding:14px;
+	text-align: center;
+	background-color: #fcfcfc;
+	transition: 0.3s;
+	outline: none;
+	border:1px solid #c0bfbf;
+	border-radius: 3px;
+}
+
+.radio{
+	display: none;
+}
+
+.input-box label{
+	width: 50%;
+	padding: 13px;
+	background-color: #fcfcfc;
+	display: block;
+	float: left;
+	text-align: center;
+	border: 1px solid #c0bfbf;
+}
+.bc1 .bc2 .bc3 label{
+	width: 5%;
+	padding: 5px;
+}
+
+.input-box label:first-of-type{
+	border-bottom-left-radius: 3px;
+	border-top-left-radius: 3px;
+	border-right: none;
+}
+
+.input-box label:last-of-type{
+	border-bottom-right-radius-radius: 3px;
+	border-top-right-radius-radius: 3px;
+
+}
+
+.radio:checked + label{
+	background-color: #BD705A;
+	color: white;
+	transition: 0.5;
+}
+
+.radio + label{
+	color: grey;
+	transition: 0.5;
+}
+
+.input-box select{
+	display:inline-block;
+	width:50%;
+	padding:12px;
+	background-color: #fcfcfc;
+	float:left;
+	text-align: center;
+	font-size: 16px;
+	outline:none;
+	border:1px solid #c0bfbf;
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+input[type=datetime-local]{
+	display:inline-block;
+	width:100%;
+	padding:12px;
+	background-color: #fcfcfc;
+	float:left;
+	text-align: center;
+	font-size: 16px;
+	outline:none;
+	border:1px solid #c0bfbf;
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+
+.input-box select:focus{
+	background-color: #BD705A;
+	color:#fff;
+	text-align: center;
+
+}
+
+.input-box button{
+	width: 100%;
+	background: transparent;
+	border:none;
+	background: #BD705A;
+	color:#fff;
+	padding:15px;
+	font-size: 16px;
+	transition:all 0.35s ease;
+}
+
+.input-box button:hover{
+	cursor: pointer;
+	background: #5eb105;
+}
+.btn-group button {
+  background-color: orangered; /* Green background */
+  position: relative;
+  font-size: 40px;
+  color: white; /* White text */
+  padding:  auto; /* Some padding */
+  margin-right: auto 5%;
+  margin-left: auto 5%;
+  margin: 5%;
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+  width: 40%;
+  border-radius: 30%;
+  align-items: center;
+  border: 5px double white;  
+}
+.btn-group button:hover {
+  background-color: #A1A9FE;
+  border: 5px double red;
+}
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+}
+.btn {
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
